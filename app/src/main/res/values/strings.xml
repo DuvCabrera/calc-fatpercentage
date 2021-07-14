@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">calc-fat</string>
+    <string name="idade">Idade</string>
+    <string name="peso">Peso</string>
+    <string name="sexo">Sexo</string>
+    <string name="aluno">Aluno</string>
+    <string name="altura">Altura</string>
+    <string name="imc">IMC</string>
+    <string name="gordura">%Gordura</string>
 </resources>
