@@ -13,6 +13,14 @@ class StudentActivity : AppCompatActivity() {
         binding = ActivityStudentBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+        setListeners()
+    }
+
+    private fun setListeners(){
+        binding.btnIMC.setOnClickListener {
+            calculaIMC(binding.edtWeight.text.toString(), binding.edtHeight.text.toString())
+        }
+
 
     }
 
@@ -44,8 +52,8 @@ class StudentActivity : AppCompatActivity() {
         }
     }
 
-    private fun calculaGordura(){
+   /* private fun calculaGordura(){
         val soma = somaDobras()
 
-    }
+    }*/
 }
